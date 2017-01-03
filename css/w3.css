@@ -1,4 +1,4 @@
-﻿/* W3.CSS 2.84 Dec 2016 by Jan Egil and Borge Refsnes */
+﻿/* W3.CSS 2.85 Jan 2017 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -322,7 +322,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-border-light-blue,.w3-hover-border-light-blue:hover{border-color:#87CEEB!important}
 .w3-border-brown,.w3-hover-border-brown:hover{border-color:#795548!important}
 .w3-border-cyan,.w3-hover-border-cyan:hover{border-color:#00bcd4!important}
-.w3-border-blue-grey,.w3-hover-blue-grey:hover,.w3-border-blue-gray,.w3-hover-blue-gray:hover{border-color:#607d8b!important}
+.w3-border-blue-grey,.w3-hover-border-blue-grey:hover,.w3-border-blue-gray,.w3-hover-border-blue-gray:hover{border-color:#607d8b!important}
 .w3-border-green,.w3-hover-border-green:hover{border-color:#4CAF50!important}
 .w3-border-light-green,.w3-hover-border-light-green:hover{border-color:#8bc34a!important}
 .w3-border-indigo,.w3-hover-border-indigo:hover{border-color:#3f51b5!important}
