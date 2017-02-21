@@ -1,4 +1,4 @@
-﻿/* W3.CSS 2.95 Feb 2017 by Jan Egil and Borge Refsnes */
+﻿/* W3.CSS 2.96 Feb 2017 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -78,7 +78,7 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
 {-webkit-transition:background-color .25s,color .15s,box-shadow .25s,opacity 0.25s,filter 0.25s,border 0.15s;transition:background-color .25s,color .15s,box-shadow .15s,opacity .25s,filter .25s,border .15s}
 .w3-ripple:active{opacity:0.5}.w3-ripple{-webkit-transition:opacity 0s;transition:opacity 0s}
 .w3-sidenav{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
-.w3-sidenav a,.w3-navblock a{padding:4px 2px 4px 16px}.w3-sidenav a:hover,.w3-navblock a:hover{background-color:#ccc}.w3-sidenav a,.w3-dropnav a,.w3-navblock a{display:block}
+.w3-sidenav a,.w3-navblock a{padding:4px 2px 4px 16px}.w3-sidenav a:hover,.w3-navblock a:hover{background-color:#ccc;color:#000}.w3-sidenav a,.w3-dropnav a,.w3-navblock a{display:block}
 .w3-sidenav .w3-dropdown-hover:hover,.w3-sidenav .w3-dropdown-hover:first-child,.w3-sidenav .w3-dropdown-click:hover,.w3-dropnav a:hover{background-color:#ccc;color:#000}
 .w3-sidenav .w3-dropdown-hover,.w3-sidenav .w3-dropdown-click {width:100%}.w3-sidenav .w3-dropdown-hover .w3-dropdown-content,.w3-sidenav .w3-dropdown-click .w3-dropdown-content{min-width:100%}
 .w3-main,#main{transition:margin-left .4s}
@@ -95,7 +95,8 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
 .w3-select select:focus{color:#000;border:1px solid #009688}.w3-select option[disabled]{color:#009688}
 .w3-dropdown-click,.w3-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
 .w3-dropdown-hover:hover .w3-dropdown-content{display:block;z-index:1}
-.w3-dropdown-hover:hover,.w3-dropdown-hover:first-child,.w3-dropdown-click:hover{background-color:#ccc;color:#000}
+.w3-dropdown-hover:first-child,.w3-dropdown-click:hover{background-color:#ccc;color:#000}
+.w3-dropdown-hover:hover .w3-button,.w3-dropdown-click:hover .w3-button{background-color:#ccc;color:#000}
 .w3-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0}
 .w3-dropdown-content a{padding:6px 16px;display:block}
 .w3-dropdown-content a:hover{background-color:#ccc}
@@ -112,7 +113,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-bar .w3-btn{padding:8px 16px;background-color:inherit;color:inherit;box-shadow:none}
 .w3-bar .w3-btn:hover{color:#000!important;background-color:#ccc!important}
 .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{position:static;float:left}
-.w3-bar .w3-dropdown-hover:hover,.w3-bar .w3-dropdown-hover:first-child,.w3-bar .w3-dropdown-click:hover{background-color:#ccc;color:#000}
+.w3-bar .w3-button{background-color:inherit;color:inherit}
 .w3-block{display:block;width:100%}
 .w3-responsive{overflow-x:auto}
 .w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,.w3-cell-row:before,.w3-cell-row:after,
